@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.muzaic-ai/muzaic-mcp",
+  "title": "Muzaic AI Music Generation",
+  "description": "Generate custom AI music for video content — single tracks, multi-region soundtracks, 30+ style tags, dynamic keyframes",
+  "version": "1.0.0",
+  "status": "active",
+  "websiteUrl": "https://muzaic.ai",
+  "repository": {
+    "url": "https://github.com/muzaic-ai/muzaic-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "muzaic-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "MUZAIC_API_KEY",
+          "description": "Your Muzaic API key (get from https://adminpanel.muzaic.ai/)",
+          "isRequired": true
+        }
+      ]
+    }
+  ]
+}
