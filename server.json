@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "io.github.MUZAIC-Organization/muzaic-mcp",
   "title": "Muzaic AI Music Generation",
-  "description": "Generate custom AI music for video content — single tracks, multi-region soundtracks, 30+ style tags, dynamic keyframes",
+  "description": "Generate custom AI music for video content with tags, parameters, and keyframes",
   "version": "1.0.0",
   "status": "active",
   "websiteUrl": "https://muzaic.ai",
