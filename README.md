@@ -252,7 +252,7 @@ Music generation can take up to 5 minutes for 20-minute tracks. This is normal. 
 
 ```bash
 # Clone
-git clone https://github.com/muzaic-ai/muzaic-mcp.git
+git clone https://github.com/MUZAIC-Organization/muzaic-mcp.git
 cd muzaic-mcp
 
 # Install with dev dependencies
